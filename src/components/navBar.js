@@ -16,9 +16,9 @@ function NavBar() {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
+            <Nav.Link href="#action2">About Us</Nav.Link>
             <Nav.Link href="#action3">Products</Nav.Link>
-            <Nav.Link href="#action4">Review</Nav.Link>
+            <Nav.Link href="#action4">Customer Reviews</Nav.Link>
             <Nav.Link href="#action5">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
