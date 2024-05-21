@@ -5,7 +5,7 @@ import SubTitleText from "../components/subTitleText";
 import { IoIosSend } from "react-icons/io";
 import bannerBackground from "../assets/banner-background.jpg";
 
-function ContactUs() {
+function ContactUsView() {
   return (
     <div className="container" id="contact" style={{ marginBottom: "100px" }}>
       <TitleText title={"contact us"} />
@@ -96,4 +96,4 @@ function ContactUs() {
     </div>
   );
 }
-export default ContactUs;
+export default ContactUsView;

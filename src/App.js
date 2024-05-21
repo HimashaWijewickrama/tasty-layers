@@ -1,19 +1,19 @@
 import "./App.css";
-import AboutUs from "./pages/aboutUs";
-import ContactUs from "./pages/contactUs";
+import AboutusView from "./pages/aboutus/aboutus.view";
+import ContactUsView from "./pages/contactUs.view";
 import Home from "./pages/home";
-import Products from "./pages/products";
-import Review from "./pages/review";
 import Footer from "./pages/footer";
+import ReviewContainer from "./pages/review/review.container";
+import ProductContainer from "./pages/product/product.container";
 
 function App() {
   return (
     <div className="App">
       <Home />
-      <AboutUs />
-      <Products />
-      <Review />
-      <ContactUs />
+      <AboutusView/>
+      <ProductContainer />
+      <ReviewContainer />
+      {/* <ContactUsView /> */}
       <Footer />
     </div>
   );
