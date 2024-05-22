@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.db62923b.css",
-    "main.js": "/static/js/main.be338705.js",
-    "static/js/453.887595bf.chunk.js": "/static/js/453.887595bf.chunk.js",
-    "static/media/contact.png": "/static/media/contact.9e9aee24463b5c18c04d.png",
-    "index.html": "/index.html",
-    "main.db62923b.css.map": "/static/css/main.db62923b.css.map",
-    "main.be338705.js.map": "/static/js/main.be338705.js.map",
-    "453.887595bf.chunk.js.map": "/static/js/453.887595bf.chunk.js.map"
+    "main.css": "/tasty-layers/static/css/main.db62923b.css",
+    "main.js": "/tasty-layers/static/js/main.fb0e5380.js",
+    "static/js/453.887595bf.chunk.js": "/tasty-layers/static/js/453.887595bf.chunk.js",
+    "static/media/contact.png": "/tasty-layers/static/media/contact.9e9aee24463b5c18c04d.png",
+    "index.html": "/tasty-layers/index.html",
+    "main.db62923b.css.map": "/tasty-layers/static/css/main.db62923b.css.map",
+    "main.fb0e5380.js.map": "/tasty-layers/static/js/main.fb0e5380.js.map",
+    "453.887595bf.chunk.js.map": "/tasty-layers/static/js/453.887595bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db62923b.css",
-    "static/js/main.be338705.js"
+    "static/js/main.fb0e5380.js"
   ]
 }
