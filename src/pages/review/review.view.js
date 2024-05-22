@@ -12,7 +12,7 @@ const ReviewView = (props) => {
       <Row xs={1} md={3} className="g-2">
         {customers.map((customer) => (
           <Col key={customer.id}>
-            <Card className="text-center">
+            <Card className="card text-dark bg-light mb-3 shadow p-2 mb-3 bg-body rounded text-center border-0">
               <Row>
                 <Col md={4}>
                   <Card.Img variant="top" src={customer.avatar} rounded />

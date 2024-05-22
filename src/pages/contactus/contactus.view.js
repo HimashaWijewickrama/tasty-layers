@@ -11,7 +11,7 @@ const ContactusView = (props) => {
       <br />
       <Row>
         <Col>
-          <Card mb={12}>
+          <Card mb={12} className="border-0">
             <Row>
               <Col md={6}>
                 <Card.Img variant="top" src={Contact} />

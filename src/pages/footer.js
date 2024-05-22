@@ -10,27 +10,18 @@ import {
 } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 import Button from "react-bootstrap/Button";
-import LogoNav from "../assets/nav-logo.png";
+import BrandText from "../components/brandText";
 
 function Footer() {
   return (
     <div className="d-flex flex-column h-100">
       <hr style={{ width: "100%",margin: "0 auto", color: '#000000' }} />
-
       <footer className="w-100 py-4 flex-shrink-0">
         <div className="container py-4">
           <div className="row gy-4 gx-5">
             <div className="col-lg-4 col-md-6">
-              {/* <img
-                src={LogoNav}
-                alt="Tasty Layers"
-                style={{
-                  maxHeight: "100px",
-                  maxWidth: "150px",
-                  marginLeft: "50px",
-                }}
-              /> */}
-              <h5 className="h1 text-dark">Tasty Layers</h5>
+
+              <h5 className="h1 text-dark"><BrandText/></h5>
               <p className="small text-muted" style={{ textAlign: "justify" }}>
                 We believe that every celebration is unique and deserves a
                 special touch. Our goal is to make delightful and beautifully
