@@ -9,7 +9,7 @@ const ProductView = (props) => {
   const handleBuy = () => {
     Swal.fire({
       title: "Do you want to place an order now?",
-      html: `<p className="text-start card-text small text-muted">Call our hotline +94 769 603 388 or visit our outlet in Homagama to confirm your order. Please, place your all orders between 8.00 am and 5.00 pm on weekdays. Orders are not accepted on weekends</p>`,
+      html: `<p className="text-start small text-muted">Call our hotline +94 769 603 388 or visit our outlet in Homagama to confirm your order. Please, place your all orders between 8.00 am and 5.00 pm on weekdays. Orders are not accepted on weekends</p>`,
       icon: "question",
       showCancelButton: true,
       cancelButtonColor: "#d33",
