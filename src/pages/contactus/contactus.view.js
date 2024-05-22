@@ -1,11 +1,13 @@
+//import dependencies
 import React, { useState } from "react";
-import TitleText from "../../components/titleText";
 import { Row, Col, Card, Container } from "react-bootstrap";
-import Contact from "../../assets/contact.png";
-import { IoIosSend } from "react-icons/io";
-import { Oval } from "react-loader-spinner";
+import { IoIosSend } from "react-icons/io"; //icons from react-icons
+import { Oval } from "react-loader-spinner"; //import loading animation(Spinner)
+import Contact from "../../assets/contact.png"; //import image
+import TitleText from "../../components/titleText";
 
 const ContactusView = ({ addFeedback, loader }) => {
+  //all the fields are empty at the begining
   const [newFeedback, setNewFeedback] = useState({
     firstName: "",
     lastName: "",
@@ -14,6 +16,7 @@ const ContactusView = ({ addFeedback, loader }) => {
     message: "",
   });
 
+  //function to handle changes in input fields
   const handleChange = (e) => {
     const { name, value } = e.target;
     setNewFeedback((prevState) => ({
@@ -22,10 +25,12 @@ const ContactusView = ({ addFeedback, loader }) => {
     }));
   };
 
+  //function to handle form submit
   const handleSubmit = async (e) => {
     e.preventDefault();
     await addFeedback(newFeedback);
     setNewFeedback({
+      //after submit the form, input fields will be empty
       firstName: "",
       lastName: "",
       emailAddress: "",
@@ -136,7 +141,7 @@ const ContactusView = ({ addFeedback, loader }) => {
                           disabled={loader === true ? true : false}
                         >
                           {loader === true ? (
-                            <Oval height="40px" width="80px" color="#198754" />
+                            <Oval height="40px" width="80px" color="#198754" /> //until modal is opening(form is submitting) loader will be appeared
                           ) : (
                             <>
                               {" "}

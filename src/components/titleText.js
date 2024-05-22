@@ -1,5 +1,7 @@
+// import dependencies
 import React from "react";
 
+//create a common component to add "title of the sections"
 function TitleText({ title }) {
   return (
     <div

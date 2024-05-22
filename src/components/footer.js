@@ -1,3 +1,4 @@
+//import react packages and dependencies
 import React from "react";
 import {
   FaEnvelope,
@@ -9,15 +10,18 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
-import Button from "react-bootstrap/Button";
+import { Container, Row, Col, Button } from "react-bootstrap";
+//import pre-created brandtext component
 import BrandText from "./brandText";
-import { Container, Row, Col } from "react-bootstrap";
+
+//footer section implementation -start
 function Footer() {
   return (
     <Container>
       <hr style={{ color: "muted" }} />
 
       <Row className="g-5" xs={2} md={4}>
+        {/* brand name and description column */}
         <Col md={4}>
           <h5 className="h1 text-dark">
             <BrandText />
@@ -28,6 +32,8 @@ function Footer() {
             accessible to everyone, adding a layer of joy to life's memorable
             moments
           </p>
+
+          {/* follow us -social media links */}
           <h5 className="mb-3 fw-bold">Follow Us |</h5>
 
           <span style={{ marginRight: "20px", color: "muted" }}>
@@ -63,6 +69,8 @@ function Footer() {
             />
           </span>
         </Col>
+
+        {/* quick links column*/}
         <Col md={2}>
           <h5 className="text-muted mb-3 fw-bold">Quick Links</h5>
           <ul className="text-center list-unstyled text-muted">
@@ -87,12 +95,14 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#contactus"className="text-decoration-none">
+              <a href="#contactus" className="text-decoration-none">
                 Contact Us
               </a>
             </li>
           </ul>
         </Col>
+
+        {/* customer services column*/}
         <Col md={2}>
           <h5 className="text-muted mb-3 fw-bold">Customer Service</h5>
           <ul className="text-start list-unstyled text-muted">
@@ -131,6 +141,8 @@ function Footer() {
             </li>
           </ul>
         </Col>
+
+        {/* newsletter column */}
         <Col md={4}>
           <h5 className="text-muted mb-3 fw-bold">Newsletter</h5>
           <p className="small text-muted">
@@ -157,6 +169,8 @@ function Footer() {
           </form>
         </Col>
       </Row>
+
+      {/* copyright statement section*/}
       <hr style={{ color: "muted" }} />
       <Row>
         <p className="text-center small text-muted mb-0">

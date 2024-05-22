@@ -1,20 +1,21 @@
+// import dependencies
 import React from "react";
+import { Card, Col, Row, Container } from "react-bootstrap";
+//import pre-created titletext component
 import TitleText from "../../components/titleText";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import { Container } from "react-bootstrap";
 
 const AboutusView = () => {
   return (
     <Container id="aboutus" style={{ marginBottom: "100px" }}>
-      <TitleText title={"about us"} />
+      <TitleText title={"about us"} /> {/* import title of the section */}
       <br />
       <Row>
         <Col>
           <Card mb={12}>
             <Row>
               <Col md={6}>
+                {" "}
+                {/* card image */}
                 <Card.Img
                   variant="top"
                   src="https://images.unsplash.com/photo-1504128668912-f893e6606db6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

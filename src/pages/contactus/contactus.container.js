@@ -1,15 +1,20 @@
+//import dependencies
 import React, { memo, useState } from "react";
-import ContactusView from "./contactus.view";
 import { Modal, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
+import ContactusView from "./contactus.view";
 
 const ContactusContainer = () => {
   const [feedbackData, setFeedbackData] = useState(null);
-  const [show, setShow] = useState(false);
-  const [loader, setLoader] = useState(false);
+  // declare a feedbackData variable and set initial state us null
+  // (to store data that are going to saved)
+  const [show, setShow] = useState(false); //set initial value of the modal visibility as false (hide)
+  const [loader, setLoader] = useState(false); //set initial state of the loader as false
 
+  //function to show modal
   const handleShow = () => setShow(true);
 
+  //function to handle "Send" button
   const handleSend = () => {
     Swal.fire({
       title: "Your message has been sent !",
@@ -18,9 +23,10 @@ const ContactusContainer = () => {
       showCancelButton: true,
       cancelButtonColor: "#d33",
     });
-    setShow(false);
+    setShow(false); //modal is closed
   };
 
+  //function to handle addfeedback(POST) API
   const addFeedback = async (feedback) => {
     try {
       setLoader(true);
@@ -52,6 +58,7 @@ const ContactusContainer = () => {
     }
   };
 
+  //function to handle "DELETE" API (onClick function to Delete button)
   const deleteFeedback = async () => {
     try {
       setLoader(true);

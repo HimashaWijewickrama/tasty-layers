@@ -1,12 +1,16 @@
+// import dependencies
 import React from "react";
-import TitleText from "../../components/titleText";
 import { Card, Row, Col, Button, Stack, Container } from "react-bootstrap";
 import Swal from "sweetalert2";
+//imported pre-created components
+import TitleText from "../../components/titleText";
 
 const ProductView = (props) => {
-  const { products } = props;
+  const { products } = props; //get the props from the cotainer
 
+  //function to handle "Buy Now" button
   const handleBuy = () => {
+    //sweetalert's triggering
     Swal.fire({
       title: "Do you want to place an order now?",
       html: `<p className="text-start small text-muted">Call our hotline +94 769 603 388 or visit our outlet in Homagama to confirm your order. Please, place your all orders between 8.00 am and 5.00 pm on weekdays. Orders are not accepted on weekends</p>`,
@@ -14,7 +18,7 @@ const ProductView = (props) => {
       showCancelButton: true,
       cancelButtonColor: "#d33",
       cancelButtonText: "Cancel",
-    })
+    });
   };
 
   return (

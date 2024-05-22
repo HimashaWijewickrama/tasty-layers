@@ -1,4 +1,6 @@
+//import dependencies
 import React, { memo, useEffect, useState } from "react";
+
 import ReviewView from "./review.view";
 
 const ReviewContainer = () => {
@@ -8,6 +10,7 @@ const ReviewContainer = () => {
     fetchCustomerData();
   }, []);
 
+  //function to fetch review data that are comming from API
   const fetchCustomerData = async () => {
     await fetch("https://664d03f7ede9a2b5565268e0.mockapi.io/users")
       .then((res) => res.json())

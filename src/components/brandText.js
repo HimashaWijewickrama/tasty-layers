@@ -1,6 +1,8 @@
+//import dependencies
 import React from "react";
 import { Container } from "react-bootstrap";
 
+//create a common component to add "brand name (Tasty layers)"
 function BrandText() {
   return (
     <Container>
