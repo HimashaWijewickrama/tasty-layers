@@ -14,16 +14,20 @@ const ReviewView = (props) => {
           <Col key={customer.id}>
             <Card className="text-center">
               <Row>
-                <Col xs={2} md={4}>
+                <Col md={4}>
                   <Card.Img variant="top" src={customer.avatar} rounded />
                 </Col>
-                <Col xs={2} md={8}>
+                <Col md={8}>
                   <Card.Body>
-                    <Card.Title className="text-capitalize fs-6 fw-bold">
-                      {customer.message}
+                    <Card.Title>
+                      <p className="text-capitalize fs-6 fw-bold">
+                        {customer.message}
+                      </p>
                     </Card.Title>
-                    <Card.Text className="text-center card-text small text-muted">
-                      {customer.firstName} {customer.lastName}
+                    <Card.Text>
+                      <p className="text-center card-text small text-muted">
+                        {customer.firstName} {customer.lastName}
+                      </p>
                     </Card.Text>
                   </Card.Body>
                 </Col>
