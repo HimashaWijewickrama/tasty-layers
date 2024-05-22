@@ -3,10 +3,11 @@ import TitleText from "../../components/titleText";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { Container } from "react-bootstrap";
 
-function AboutusView() {
+const AboutusView = () => {
   return (
-    <div className="container" id="aboutus" style={{ marginBottom: "100px" }}>
+    <Container id="aboutus" style={{ marginBottom: "100px" }}>
       <TitleText title={"about us"} />
       <br />
       <Row>
@@ -66,7 +67,8 @@ function AboutusView() {
           </Card>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
-}
+};
+
 export default AboutusView;

@@ -6,9 +6,9 @@ function TitleText({ title }) {
       className="d-flex p-2 bd-highlight"
       style={{ marginTop: "20px", marginBottom: "20px" }}
     >
-      <div className="card-body">
+      <div>
         <p
-          className="text-center text-uppercase fs-3 fw-light"
+          className="text-start text-uppercase fs-3 fw-light"
           style={{ textShadow: "0px 0px #575A5E", letterSpacing: "0.5rem" }}
         >
           {title}

@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 import Button from "react-bootstrap/Button";
-import BrandText from "../components/brandText";
+import BrandText from "./brandText";
 import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
@@ -65,29 +65,29 @@ function Footer() {
         </Col>
         <Col md={2}>
           <h5 className="text-muted mb-3 fw-bold">Quick Links</h5>
-          <ul className="list-unstyled text-muted">
+          <ul className="text-center list-unstyled text-muted">
             <li>
-              <a href="#home" style={{ textDecoration: "none" }}>
+              <a href="#home" className="text-decoration-none">
                 Home
               </a>
             </li>
             <li>
-              <a href="#aboutus" style={{ textDecoration: "none" }}>
+              <a href="#aboutus" className="text-decoration-none">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#products" style={{ textDecoration: "none" }}>
+              <a href="#product" className="text-decoration-none">
                 Products
               </a>
             </li>
             <li>
-              <a href="#reviews" style={{ textDecoration: "none" }}>
+              <a href="#review" className="text-decoration-none">
                 Customer Reviews
               </a>
             </li>
             <li>
-              <a href="#contact" style={{ textDecoration: "none" }}>
+              <a href="#contactus"className="text-decoration-none">
                 Contact Us
               </a>
             </li>
@@ -127,7 +127,7 @@ function Footer() {
                   title="Location"
                 />
               </span>
-              No:215, Colombo 10
+              Homagama, Sri Lanka
             </li>
           </ul>
         </Col>

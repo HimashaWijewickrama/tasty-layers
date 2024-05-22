@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#"><BrandText/></Navbar.Brand>
+        <Navbar.Brand href="/"><BrandText/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className="justify-content-center">
           <Nav
@@ -16,11 +16,11 @@ function NavBar() {
             style={{ maxHeight: "500px" }}
             navbarScroll
           >
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#aboutus">About Us</Nav.Link>
-            <Nav.Link href="#products">Products</Nav.Link>
-            <Nav.Link href="#review">Customer Reviews</Nav.Link>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Nav.Link href="#home" className="fw-bold text-uppercase fs-6">Home</Nav.Link>
+            <Nav.Link href="#aboutus" className="fw-bold text-uppercase fs-6">About Us</Nav.Link>
+            <Nav.Link href="#product"className="fw-bold text-uppercase fs-6">Products</Nav.Link>
+            <Nav.Link href="#review"className="fw-bold text-uppercase fs-6">Customer Reviews</Nav.Link>
+            <Nav.Link href="#contactus"className="fw-bold text-uppercase fs-6">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

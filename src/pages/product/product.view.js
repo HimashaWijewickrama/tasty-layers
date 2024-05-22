@@ -6,7 +6,7 @@ const ProductView = (props) => {
   const { products } = props;
 
   return (
-    <Container id="products" style={{ marginBottom: "100px" }}>
+    <Container id="product" style={{ marginBottom: "100px" }}>
       <TitleText title={"products"} />
       <br />
       <Row xs={1} md={4} className="g-2">

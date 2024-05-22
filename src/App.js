@@ -2,7 +2,7 @@ import "./App.css";
 import AboutusView from "./pages/aboutus/aboutus.view";
 import ContactusView from "./pages/contactus/contactus.view";
 import Home from "./pages/home";
-import Footer from "./pages/footer";
+import Footer from "./components/footer";
 import ReviewContainer from "./pages/review/review.container";
 import ProductContainer from "./pages/product/product.container";
 

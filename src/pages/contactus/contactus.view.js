@@ -6,7 +6,7 @@ import { IoIosSend } from "react-icons/io";
 
 const ContactusView = (props) => {
   return (
-    <Container id="contact" style={{ marginBottom: "100px" }}>
+    <Container id="contactus" style={{ marginBottom: "100px" }}>
       <TitleText title={"contact us"} />
       <br />
       <Row>
