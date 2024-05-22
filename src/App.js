@@ -1,6 +1,6 @@
 import "./App.css";
 import AboutusView from "./pages/aboutus/aboutus.view";
-import ContactUsView from "./pages/contactUs.view";
+import ContactusView from "./pages/contactus/contactus.view";
 import Home from "./pages/home";
 import Footer from "./pages/footer";
 import ReviewContainer from "./pages/review/review.container";
@@ -13,7 +13,7 @@ function App() {
       <AboutusView/>
       <ProductContainer />
       <ReviewContainer />
-      {/* <ContactUsView /> */}
+      <ContactusView />
       <Footer />
     </div>
   );
