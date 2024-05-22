@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 const ContactusContainer = () => {
   const [feedbackData, setFeedbackData] = useState(null);
   const [show, setShow] = useState(false);
+  const [loader, setLoader] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -32,6 +33,7 @@ const ContactusContainer = () => {
 
   const addFeedback = async (feedback) => {
     try {
+      setLoader(true);
       let response = await fetch(
         "https://664d03f7ede9a2b5565268e0.mockapi.io/users",
         {
@@ -47,19 +49,22 @@ const ContactusContainer = () => {
         let newMessage = await response.json();
         setFeedbackData(newMessage);
         setShow(true);
+        setLoader(false);
       } else {
         console.log("Error", response.statusText);
         setShow(false);
         alert("Something went wrong! Please try again");
+        setLoader(false);
       }
     } catch (e) {
       console.log(e);
+      setLoader(false);
     }
   };
 
   return (
     <>
-      <ContactusView addFeedback={addFeedback} />
+      <ContactusView addFeedback={addFeedback} loader={loader}/>
       {feedbackData && (
         <Modal show={show} onHide={handleClose}>
           <Modal.Header>

@@ -3,8 +3,9 @@ import TitleText from "../../components/titleText";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import Contact from "../../assets/contact.png";
 import { IoIosSend } from "react-icons/io";
+import { Oval } from "react-loader-spinner";
 
-const ContactusView = ({ addFeedback }) => {
+const ContactusView = ({ addFeedback, loader }) => {
   const [newFeedback, setNewFeedback] = useState({
     firstName: "",
     lastName: "",
@@ -132,8 +133,16 @@ const ContactusView = ({ addFeedback }) => {
                         <button
                           type="submit"
                           className="btn btn-light btn-outline-success"
+                          disabled={loader === true ? true : false}
                         >
-                          <IoIosSend /> Send
+                          {loader === true ? (
+                            <Oval height="80px" width="80px" color="#198754" />
+                          ) : (
+                            <>
+                              {" "}
+                              <IoIosSend /> Send
+                            </>
+                          )}
                         </button>
                       </div>
                     </form>
