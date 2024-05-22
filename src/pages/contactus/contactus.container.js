@@ -18,6 +18,7 @@ const ContactusContainer = () => {
       showCancelButton: true,
       cancelButtonColor: "#d33",
     });
+    setShow(false);
   };
 
   const addFeedback = async (feedback) => {
@@ -175,9 +176,6 @@ const ContactusContainer = () => {
             </Button>
             <Button variant="danger" onClick={deleteFeedback}>
               Delete
-            </Button>
-            <Button variant="primary" onClick={deleteFeedback}>
-              Update
             </Button>
           </Modal.Footer>
         </Modal>
