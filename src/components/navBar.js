@@ -13,7 +13,8 @@ function NavBar() {
       <Container fluid>
         <Navbar.Brand href="/tasty-layers">
           <BrandText />
-        </Navbar.Brand>
+        </Navbar.Brand>{" "}
+        <h5 className="mb-3 fw-bold">|</h5>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className="justify-content-center">
           <Nav
