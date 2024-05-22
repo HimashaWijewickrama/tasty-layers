@@ -16,6 +16,12 @@ Tasty Layers Cake Shop is a responsive Single Page Application(SPA) that is deve
 - react icons : latest version 5.2.1
 - sweetalert2 : latest verion 11.11.1
 - react loader spinner : latest version 6.1.6
+- react scroll : latest version 1.9.0
+
+## Other Resources
+
+Used https://mockapi.io/ to create the sample APIs.\
+All images from https://unsplash.com/
 
 ## Available Scripts
 
@@ -37,5 +43,5 @@ Compiles the project for production.
 
 Deploy the project to the hosting environment. (Here, GitHub pages)
 
-Local: http://localhost:3000/Tasty-Layers \
-On Your Network: https://himashawijewickrama.github.io/Tasty-Layers/
+Local: http://localhost:3000/tasty-layers \
+On Your Network: https://himashawijewickrama.github.io/tasty-layers/
