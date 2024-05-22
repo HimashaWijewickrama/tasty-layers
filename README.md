@@ -21,7 +21,7 @@ Tasty Layers Cake Shop is a responsive Single Page Application(SPA) that is deve
 ## Other Resources
 
 Used https://mockapi.io/ to create the sample APIs.\
-All images from https://unsplash.com/.\
+All images from https://unsplash.com/
 
 ## Available Scripts
 
