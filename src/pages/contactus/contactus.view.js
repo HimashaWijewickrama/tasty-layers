@@ -136,7 +136,7 @@ const ContactusView = ({ addFeedback, loader }) => {
                           disabled={loader === true ? true : false}
                         >
                           {loader === true ? (
-                            <Oval height="80px" width="80px" color="#198754" />
+                            <Oval height="40px" width="80px" color="#198754" />
                           ) : (
                             <>
                               {" "}
