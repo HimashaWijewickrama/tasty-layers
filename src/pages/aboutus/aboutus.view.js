@@ -23,43 +23,34 @@ const AboutusView = () => {
               <Col md={6}>
                 <Card.Body>
                   <Card.Text>
-                    <div className="card-body text-dark">
-                      <p className="text-capitalize fs-6 fw-bold">
-                        Company Overview
-                      </p>
-                      <p
-                        className="text-start card-text small text-muted"
-                      >
-                        Tasty Layers is your go to cake shop for delightful and
-                        exquisitely crafted cakes. Founded with a love for
-                        baking and a commitment to quality, we specialize in
-                        creating beautiful and delicious cakes for all
-                        occasions.
-                      </p>
-                      <p className="text-capitalize fs-6 fw-bold">
-                        Our Mission
-                      </p>
-                      <p
-                        className="card-text small text-muted"
-                        style={{ textAlign: "justify" }}
-                      >
-                        We are committed to using high-quality ingredients,
-                        innovative designs, and exceptional customer service to
-                        ensure that every cake we make adds a layer of joy and
-                        sweetness to our customers' special moments.
-                      </p>
-                      <p className="text-capitalize fs-6 fw-bold">Our Vision</p>
-                      <p
-                        className="card-text small text-muted"
-                        style={{ textAlign: "justify" }}
-                      >
-                        Our vision is to be the leading cake shop known for our
-                        artistry, creativity, and dedication to excellence. We
-                        aim to inspire and bring smiles to our customers by
-                        continually pushing the boundaries of cake design and
-                        flavor, making a cherished part of every celebration.
-                      </p>
-                    </div>
+                    <p className="text-center text-capitalize fs-6 fw-bold">
+                      Company Overview
+                    </p>
+                    <p className="text-start card-text small text-muted">
+                      Tasty Layers is your go to cake shop for delightful and
+                      exquisitely crafted cakes. Founded with a love for baking
+                      and a commitment to quality, we specialize in creating
+                      beautiful and delicious cakes for all occasions.
+                    </p>
+                    <p className="text-center text-capitalize fs-6 fw-bold">
+                      Our Mission
+                    </p>
+                    <p className="text-start card-text small text-muted">
+                      We are committed to using high-quality ingredients,
+                      innovative designs, and exceptional customer service to
+                      ensure that every cake we make adds a layer of joy and
+                      sweetness to our customers' special moments.
+                    </p>
+                    <p className="text-center text-capitalize fs-6 fw-bold">
+                      Our Vision
+                    </p>
+                    <p className="text-start card-text small text-muted">
+                      Our vision is to be the leading cake shop known for our
+                      artistry, creativity, and dedication to excellence. We aim
+                      to inspire and bring smiles to our customers by
+                      continually pushing the boundaries of cake design and
+                      flavor, making a cherished part of every celebration.
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Col>
