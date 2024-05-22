@@ -5,12 +5,14 @@ import { Row, Col, Card, Container } from "react-bootstrap";
 const ReviewView = (props) => {
   const { customers } = props;
 
+  const firstCustomers = customers.slice(0,3); //get only first 3 customers reviews from all customers'reviews
+
   return (
     <Container id="review" style={{ marginBottom: "100px" }}>
       <TitleText title={"customer reviews"} />
       <br />
       <Row xs={1} md={3} className="g-2">
-        {customers.map((customer) => (
+        {firstCustomers.map((customer) => (
           <Col key={customer.id}>
             <Card className="card text-dark bg-light mb-3 shadow p-2 mb-3 bg-body rounded text-center border-0">
               <Row>

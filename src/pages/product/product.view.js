@@ -1,9 +1,21 @@
 import React from "react";
 import TitleText from "../../components/titleText";
 import { Card, Row, Col, Button, Stack, Container } from "react-bootstrap";
+import Swal from "sweetalert2";
 
 const ProductView = (props) => {
   const { products } = props;
+
+  const handleBuy = () => {
+    Swal.fire({
+      title: "Do you want to place an order now?",
+      html: `<p className="text-start card-text small text-muted">Call our hotline +94 769 603 388 or visit our outlet in Homagama to confirm your order. Please, place your all orders between 8.00 am and 5.00 pm on weekdays. Orders are not accepted on weekends</p>`,
+      icon: "question",
+      showCancelButton: true,
+      cancelButtonColor: "#d33",
+      cancelButtonText: "Cancel",
+    })
+  };
 
   return (
     <Container id="product" style={{ marginBottom: "100px" }}>
@@ -34,8 +46,10 @@ const ProductView = (props) => {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <Stack className="d-grid gap-2" >
-                  <Button variant="success">Buy Now</Button>
+                <Stack className="d-grid gap-2">
+                  <Button variant="success" onClick={handleBuy}>
+                    Buy Now
+                  </Button>
                 </Stack>
               </Card.Footer>
             </Card>
