@@ -7,10 +7,16 @@ function BrandText() {
   return (
     <Container>
       <p
-        className="text-center text-uppercase fs-4 fw-bolder"
+        className="text-center text-capitalize fs-4 fw-bolder"
         style={{ textShadow: "0px 0px #575A5E", letterSpacing: "0.3rem" }}
       >
-        Tasty Layers
+        Tasty
+      </p>{" "}
+      <p
+        className="text-center text-capitalize fs-4 fw-bold"
+        style={{ color: "#B49A2C", letterSpacing: "0.3rem" }}
+      >
+        Layers
       </p>
     </Container>
   );
