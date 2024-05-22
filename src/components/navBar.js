@@ -5,12 +5,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 //import pre-created brandtext component
 import BrandText from "./brandText";
+import { Link } from "react-scroll";
 
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/tasty-layers">
           <BrandText />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -21,23 +22,48 @@ function NavBar() {
             navbarScroll
           >
             {/* navbar links */}
-            <Nav.Link href="#home" className="fw-bold text-capitalize fs-6">
-              Home
+            <Nav.Link>
+              <Link
+                to="home"
+                className="fw-bold text-capitalize fs-6 text-decoration-none"
+              >
+                {" "}
+                Home
+              </Link>
             </Nav.Link>
-            <Nav.Link href="#aboutus" className="fw-bold text-capitalize fs-6">
-              About Us
+            <Nav.Link>
+              <Link
+                to="aboutus"
+                className="fw-bold text-capitalize fs-6 text-decoration-none"
+              >
+                {" "}
+                About Us
+              </Link>
             </Nav.Link>
-            <Nav.Link href="#product" className="fw-bold text-capitalize fs-6">
-              Products
+            <Nav.Link>
+              <Link
+                to="product"
+                className="fw-bold text-capitalize fs-6 text-decoration-none"
+              >
+                {" "}
+                Products
+              </Link>
             </Nav.Link>
-            <Nav.Link href="#review" className="fw-bold text-capitalize fs-6">
-              Customer Reviews
+            <Nav.Link>
+              <Link
+                to="review"
+                className="fw-bold text-capitalize fs-6 text-decoration-none"
+              >
+                Customer Reviews
+              </Link>
             </Nav.Link>
-            <Nav.Link
-              href="#contactus"
-              className="fw-bold text-capitalize fs-6"
-            >
-              Contact Us
+            <Nav.Link>
+              <Link
+                to="contactus"
+                className="fw-bold text-capitalize fs-6 text-decoration-none"
+              >
+                Contact Us
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
