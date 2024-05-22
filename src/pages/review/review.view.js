@@ -1,12 +1,12 @@
 import React from "react";
 import TitleText from "../../components/titleText";
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card, Container } from "react-bootstrap";
 
 const ReviewView = (props) => {
   const { customers } = props;
 
   return (
-    <div className="container" id="review" style={{ marginBottom: "100px" }}>
+    <Container id="review" style={{ marginBottom: "100px" }}>
       <TitleText title={"customer reviews"} />
       <br />
       <Row xs={1} md={3} className="g-2">
@@ -36,7 +36,7 @@ const ReviewView = (props) => {
           </Col>
         ))}
       </Row>
-    </div>
+    </Container>
   );
 };
 export default ReviewView;

@@ -16,11 +16,11 @@ function NavBar() {
             style={{ maxHeight: "500px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About Us</Nav.Link>
-            <Nav.Link href="#action3">Products</Nav.Link>
-            <Nav.Link href="#action4">Customer Reviews</Nav.Link>
-            <Nav.Link href="#action5">Contact Us</Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#aboutus">About Us</Nav.Link>
+            <Nav.Link href="#products">Products</Nav.Link>
+            <Nav.Link href="#review">Customer Reviews</Nav.Link>
+            <Nav.Link href="#contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

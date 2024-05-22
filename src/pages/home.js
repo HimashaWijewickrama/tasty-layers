@@ -5,7 +5,7 @@ import TitleText from "../components/titleText";
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <NavBar />
       <ImageSlider />
     </div>

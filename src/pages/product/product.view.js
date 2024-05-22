@@ -1,12 +1,12 @@
 import React from "react";
 import TitleText from "../../components/titleText";
-import { Card, Row, Col, Button, Stack } from "react-bootstrap";
+import { Card, Row, Col, Button, Stack, Container } from "react-bootstrap";
 
 const ProductView = (props) => {
   const { products } = props;
 
   return (
-    <div className="container" id="product" style={{ marginBottom: "100px" }}>
+    <Container id="products" style={{ marginBottom: "100px" }}>
       <TitleText title={"products"} />
       <br />
       <Row xs={1} md={4} className="g-2">
@@ -14,7 +14,6 @@ const ProductView = (props) => {
           <Col key={product.id}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={product.product_img} />
-              {/* <Card.Header>{product.product_name}</Card.Header> */}
               <Card.Body>
                 <Card.Title className="text-capitalize fs-6 fw-bold">
                   {product.product_name}
@@ -28,7 +27,7 @@ const ProductView = (props) => {
                     </Col>
                     <Col>
                       <p className="text-end fs-6 fw-normal lh-base">
-                        Weight: {product.product_weight} Kg
+                        Weight : {product.product_weight} Kg
                       </p>
                     </Col>
                   </Row>
@@ -43,7 +42,7 @@ const ProductView = (props) => {
           </Col>
         ))}
       </Row>
-    </div>
+    </Container>
   );
 };
 export default ProductView;

@@ -1,12 +1,12 @@
 import React from "react";
 import TitleText from "../../components/titleText";
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card, Container } from "react-bootstrap";
 import Contact from "../../assets/contact.png";
 import { IoIosSend } from "react-icons/io";
 
 const ContactusView = (props) => {
   return (
-    <div className="container" id="contactus" style={{ marginBottom: "100px" }}>
+    <Container id="contact" style={{ marginBottom: "100px" }}>
       <TitleText title={"contact us"} />
       <br />
       <Row>
@@ -85,7 +85,7 @@ const ContactusView = (props) => {
           </Card>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 export default ContactusView;
