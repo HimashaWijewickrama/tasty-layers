@@ -7,7 +7,7 @@ Tasty Layers Cake Shop is a responsive Single Page Application(SPA) that is deve
 ## Prerequisites
 
 - Install the Node.js : version 18.16.1
-- Node Package Manager (npm) : version 9.5.1 (comming bundled with node)
+- Node Package Manager (npm) : version 9.5.1 (This is comming bundled with node)
 - Visual Studio Code Editor (VSCode Editor)
 
 ## Used Packages and Dependencies
