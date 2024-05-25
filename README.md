@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Tasty Layers Cake Shop is a responsive Single Page Application(SPA) that is developed using React. The application allows users to explore a variety of tasty cakes and place the orders. Additionally, customers/users can post their own comments about the service. Have added bootstrap, react-icons, spinners, sweetalerts and attractive images to the purpose of increasing user experiences.
+Tasty Layers Cake Shop is a responsive Single Page Application(SPA) that is developed using React. The application allows users to explore a variety of tasty cakes and place the orders. Additionally, customers/users can post their own comments about the service. Also,they can review about the posted comment. After reviewing the comments, they can delete or confirm to send. Have added bootstrap, react-icons, spinners, sweetalerts, loading animations(spinners) and attractive images to the purpose of increasing user experiences.
 
 ## Prerequisites
 
