@@ -1,5 +1,3 @@
-![screencapture-himashawijewickrama-github-io-tasty-layers-2024-09-03-23_01_10](https://github.com/user-attachments/assets/b928cf22-291e-4fed-9257-4d41012ee802)# Tasty Layers Cake Shop
-
 ## Project Overview
 
 Tasty Layers Cake Shop is a responsive Single Page Application(SPA) that is developed using React. The application allows users to explore a variety of tasty cakes and place the orders. Additionally, customers/users can post their own comments about the service. Also,they can review about the posted comment. After reviewing the comments, they can delete or confirm to send. Have added bootstrap, react-icons, spinners, sweetalerts, loading animations(spinners) and attractive images to the purpose of increasing user experiences.
