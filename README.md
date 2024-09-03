@@ -1,4 +1,4 @@
-# Tasty Layers Cake Shop
+![screencapture-himashawijewickrama-github-io-tasty-layers-2024-09-03-23_01_10](https://github.com/user-attachments/assets/b928cf22-291e-4fed-9257-4d41012ee802)# Tasty Layers Cake Shop
 
 ## Project Overview
 
@@ -45,3 +45,20 @@ Deploy the project to the hosting environment. (Here, GitHub pages)
 
 Local: http://localhost:3000/tasty-layers \
 On Your Network: https://himashawijewickrama.github.io/tasty-layers/
+
+## Screen Shots
+
+![screencapture-himashawijewickrama-github-io-tasty-layers-2024-09-03-23_01_10](https://github.com/user-attachments/assets/aa3943f0-f16a-4ef6-933a-378255b42975)
+
+![screencapture-himashawijewickrama-github-io-tasty-layers-2024-09-03-23_01_35](https://github.com/user-attachments/assets/bb3df7d9-f8e8-47c0-b214-a9159c4b8630)
+
+![one](https://github.com/user-attachments/assets/53f64ddc-6a27-4e5b-8e86-06802b17a264)
+
+![two](https://github.com/user-attachments/assets/38e27ec7-a98c-4fd1-81ae-f9661d67de5f)
+
+![three](https://github.com/user-attachments/assets/d93c6658-ee48-4784-a504-bf8ea02b191b)
+
+![four](https://github.com/user-attachments/assets/dc500bec-87ed-48c1-a2fa-d2f69e20fd19)
+
+
+
